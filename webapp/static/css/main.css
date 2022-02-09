@@ -1,0 +1,103 @@
+/* Webkit Styles */
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: white; 
+border: 1px solid black;
+border-radius: 10px;
+}
+
+
+.task_dashboard {
+    margin: auto;
+    margin-top: 15px;
+    padding: 30px;
+    padding-bottom: 15px;
+    width: 50%;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+}
+
+#ui-block-text {
+    font-size: 25px;  
+}
+
+.card .card-top-right-option {
+    position:absolute;
+    top:8px;
+    right:5px;
+    padding:5px;
+}
+
+.task-card {
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-text {
+    word-wrap: break-word;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+#smaller-font {
+    font-size: 15px;
+}
+
+.task-element-divider {
+    height: 20px;
+}
+
+.horizontal_divider {
+    width: 10px;
+}   
+
+.upper {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 80px;
+    border: 1px red solid;
+    padding: 5px;
+}
+  
+.upper > div {
+    flex: 1 1 auto;
+    border: 1px red solid;
+    text-align: center;
+    margin: 5px;
+}
+.standard-card {
+    margin: auto;
+    margin-top: 20px;
+    width: 25%;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.upper.mc {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+}
