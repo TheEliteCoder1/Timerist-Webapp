@@ -2,7 +2,7 @@
 The web-app solution &amp; remake of Timerist. View the original desktop app here: https://github.com/TheEliteCoder1/Timerist
 
 # Leaked Screenshot (Running on Local Host URL)
-<img src="https://github.com/TheEliteCoder1/Timerist/leaked_preview.png">
+<img src="https://github.com/TheEliteCoder1/Timerist-Webapp/blob/main/leaked_preview.png">
 
 # Notice:
 Source code will be hidden once the web application is released and in production!
