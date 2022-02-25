@@ -5,14 +5,18 @@ from .models import Todo
 
 def home(request):
     all_todos = Todo.objects.all().order_by('due_date')
+    context = {'all_todos': all_todos}
+    return render(request, 'todoapp/home.html', context)
+
+def create_todo(request):
     form = CreateTodoForm()
 
     if request.method == 'POST':
         form = CreateTodoForm(request.POST)
         if form.is_valid():
             form.save()
-        return redirect('/')
+        return redirect('/todoapp')
 
-    context = {'all_todos': all_todos, 'form':form}
-    return render(request, 'todoapp/home.html', context)
-    
+    context = {'form':form}
+
+    return render(request, 'todoapp/create_todo.html', context)
